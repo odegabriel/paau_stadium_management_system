@@ -1,0 +1,67 @@
+.post
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+  align-self: center;
+  border-radius: 30px 30px 30px 30px;
+  border: solid black;
+  padding: 10px;
+}
+
+.logo 
+{
+  width: 120px;
+  height: 30px;
+  display: flex;
+}
+
+.nav
+{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed
+{
+  display : flex;
+  flex-direction: row;
+  padding-top: 17px ;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.daylight
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 80px;
+}
+
+.arrange
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.login
+{
+  row-gap: 10px;
+  padding: 40px;
+  border: solid black;
+  border-radius: 30px 30px 30px 30px  ;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
